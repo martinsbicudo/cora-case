@@ -21,7 +21,9 @@ const GlobalStyle = createGlobalStyle`
     min-height: 100vh;
     min-width: 320px;
   }
+`
 
+export const GlobalScrollBarStyle = createGlobalStyle`
   body::-webkit-scrollbar {
     width: 1.6rem;
   }

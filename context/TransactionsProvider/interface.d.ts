@@ -6,7 +6,7 @@ export interface TransactionsProviderProps {
   children: Children
 }
 
-export type TransactionsType = typeof transactions | []
+export type TransactionsType = typeof transactions.results | []
 
 export type FiltersType = {
   search: string

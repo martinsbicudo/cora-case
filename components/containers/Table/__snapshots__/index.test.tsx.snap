@@ -3,133 +3,255 @@
 exports[`Containers / Table should render component 1`] = `
 <div>
   <table
-    class="sc-bcXHqe hqVljI"
+    class="sc-pyfCe hTdFNU"
   >
     <thead>
-      <tr
-        class="sc-gswNZR"
-      >
+      <tr>
         <th
-          class="sc-hLBbgP iFPXzE"
+          class="sc-jrcTuL deARdE"
         >
           Nome
         </th>
         <th
-          class="sc-hLBbgP iFPXzE"
+          class="sc-jrcTuL deARdE"
         >
           Tipo de transação
         </th>
         <th
-          class="sc-hLBbgP iFPXzE"
+          class="sc-jrcTuL deARdE"
         >
           Data
         </th>
         <th
-          class="sc-hLBbgP iFPXzE"
+          class="sc-jrcTuL deARdE"
         >
           Valor
         </th>
       </tr>
     </thead>
     <tbody
-      class="sc-jSUZER gaMrdr"
+      class="sc-ipEyDJ bqMtq"
+      data-testid="table-body"
     >
-      <tr
-        class="sc-gswNZR"
-      >
+      <tr>
         <td
-          class="sc-eDvSVe dbMYCm"
+          class="sc-kDvujY eHotMm"
           colspan="4"
         >
-          23 de Agosto
+          05 de Janeiro 2021 de 2021
         </td>
       </tr>
       <tr
-        class="sc-gswNZR"
+        data-testid="table-row"
       >
         <td
-          class="sc-eDvSVe dbMYCm"
+          class="sc-kDvujY eHotMm"
         >
           Test
         </td>
         <td
-          class="sc-eDvSVe dbMYCm"
+          class="sc-kDvujY eHotMm"
         >
-          Tansferência recebida
+          Pagamento Recebido
         </td>
         <td
-          class="sc-eDvSVe dbMYCm"
+          class="sc-kDvujY eHotMm"
         >
-          Hoje - 12 Jun 2020 - 17:35
+          05 Jan 2021 - 18:00:00
         </td>
         <td
-          class="sc-eDvSVe dbMYCm"
+          class="sc-kDvujY eHotMm"
         >
-          + R$ 320,00
+          <span
+            class="sc-dkrFOg hyUmhN"
+            type="credit"
+          >
+            + R$ 100,00
+          </span>
         </td>
       </tr>
-      <tr
-        class="sc-gswNZR"
-      >
+      <tr>
         <td
-          class="sc-eDvSVe dbMYCm"
+          class="sc-kDvujY eHotMm"
           colspan="4"
         >
           <span>
-            saldo
+            saldo do dia
           </span>
-           do dia R$ 3.110,08
+           
+          <span>
+            R$ 350,00
+          </span>
         </td>
       </tr>
     </tbody>
     <tbody
-      class="sc-jSUZER gaMrdr"
+      class="sc-ipEyDJ bqMtq"
+      data-testid="table-body"
     >
-      <tr
-        class="sc-gswNZR"
-      >
+      <tr>
         <td
-          class="sc-eDvSVe dbMYCm"
+          class="sc-kDvujY eHotMm"
           colspan="4"
         >
-          23 de Agosto
+          05 de Maio 2021 de 2021
         </td>
       </tr>
       <tr
-        class="sc-gswNZR"
+        data-testid="table-row"
       >
         <td
-          class="sc-eDvSVe dbMYCm"
+          class="sc-kDvujY eHotMm"
         >
           Test
         </td>
         <td
-          class="sc-eDvSVe dbMYCm"
+          class="sc-kDvujY eHotMm"
         >
-          Tansferência recebida
+          Transferência Realizada
         </td>
         <td
-          class="sc-eDvSVe dbMYCm"
+          class="sc-kDvujY eHotMm"
         >
-          Hoje - 12 Jun 2020 - 17:35
+          04 Mai 2021 - 21:00:00
         </td>
         <td
-          class="sc-eDvSVe dbMYCm"
+          class="sc-kDvujY eHotMm"
         >
-          + R$ 320,00
+          <span
+            class="sc-dkrFOg bJinoJ"
+            type="debit"
+          >
+            - R$ 10,00
+          </span>
         </td>
       </tr>
       <tr
-        class="sc-gswNZR"
+        data-testid="table-row"
       >
         <td
-          class="sc-eDvSVe dbMYCm"
+          class="sc-kDvujY eHotMm"
+        >
+          Test
+        </td>
+        <td
+          class="sc-kDvujY eHotMm"
+        >
+          Transferência Realizada
+        </td>
+        <td
+          class="sc-kDvujY eHotMm"
+        >
+          04 Mai 2021 - 22:00:00
+        </td>
+        <td
+          class="sc-kDvujY eHotMm"
+        >
+          <span
+            class="sc-dkrFOg bJinoJ"
+            type="debit"
+          >
+            - R$ 30,00
+          </span>
+        </td>
+      </tr>
+      <tr
+        data-testid="table-row"
+      >
+        <td
+          class="sc-kDvujY eHotMm"
+        >
+          Test
+        </td>
+        <td
+          class="sc-kDvujY eHotMm"
+        >
+          Transferência Estornada
+        </td>
+        <td
+          class="sc-kDvujY eHotMm"
+        >
+          04 Mai 2021 - 23:00:00
+        </td>
+        <td
+          class="sc-kDvujY eHotMm"
+        >
+          <span
+            class="sc-dkrFOg hzfbOS"
+            type="refunded"
+          >
+            R$ 1,00
+          </span>
+        </td>
+      </tr>
+      <tr>
+        <td
+          class="sc-kDvujY eHotMm"
           colspan="4"
         >
           <span>
-            saldo
+            saldo do dia
           </span>
-           do dia R$ 3.110,08
+           
+          <span>
+            R$ 250,00
+          </span>
+        </td>
+      </tr>
+    </tbody>
+    <tbody
+      class="sc-ipEyDJ bqMtq"
+      data-testid="table-body"
+    >
+      <tr>
+        <td
+          class="sc-kDvujY eHotMm"
+          colspan="4"
+        >
+          07 de Outubro 2020 de 2020
+        </td>
+      </tr>
+      <tr
+        data-testid="table-row"
+      >
+        <td
+          class="sc-kDvujY eHotMm"
+        >
+          Test
+        </td>
+        <td
+          class="sc-kDvujY eHotMm"
+        >
+          Transferência Realizada
+        </td>
+        <td
+          class="sc-kDvujY eHotMm"
+        >
+          06 Out 2020 - 21:00:00
+        </td>
+        <td
+          class="sc-kDvujY eHotMm"
+        >
+          <span
+            class="sc-dkrFOg bJinoJ"
+            type="debit"
+          >
+            - R$ 10,00
+          </span>
+        </td>
+      </tr>
+      <tr>
+        <td
+          class="sc-kDvujY eHotMm"
+          colspan="4"
+        >
+          <span>
+            saldo do dia
+          </span>
+           
+          <span>
+            R$ 290,00
+          </span>
         </td>
       </tr>
     </tbody>

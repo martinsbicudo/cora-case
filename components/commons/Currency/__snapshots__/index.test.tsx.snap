@@ -2,11 +2,8 @@
 
 exports[`Components / Currency should render component 1`] = `
 <div>
-  <p
-    class="sc-bcXHqe hrDNvr"
-    type="credit"
-  >
+  <span>
     R$ 80,00
-  </p>
+  </span>
 </div>
 `;

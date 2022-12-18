@@ -1,7 +1,8 @@
 import Head from 'next/head'
 
+import transactions from '@/data/transactions.json'
 import { Container } from '@Commons'
-import { Header, Filters } from '@Containers'
+import { Header, Filters, Table } from '@Containers'
 
 import * as Styled from './styles'
 
@@ -18,6 +19,7 @@ const Home = () => {
         <main>
           <Container>
             <Filters />
+            <Table transactions={transactions.results} />
           </Container>
         </main>
       </Styled.Home>

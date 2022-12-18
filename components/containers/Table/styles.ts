@@ -7,10 +7,6 @@ export const Table = styled.table`
   color: ${({ theme }) => theme.colors['gray-1']};
 `
 
-export const TableTr = styled.tr``
-
-export const TableTrBottom = styled.tr``
-
 export const TableTh = styled.th`
   text-align: left;
   font-weight: 400;
@@ -32,6 +28,11 @@ export const TableTh = styled.th`
 
   &:not(:last-child) {
     padding-left: 24px;
+  }
+
+  &:nth-child(3) {
+    font-weight: 900;
+    ${({ theme }) => theme.colors.primary};
   }
 `
 
@@ -62,8 +63,8 @@ export const TableTbody = styled.tbody`
   position: relative;
   border-radius: 16px;
 
-  ${TableTr}:first-child,
-  ${TableTr}:last-child {
+  tr:first-child,
+  tr:last-child {
     ${TableTd} {
       font-weight: 900;
       font-size: 1.2rem;
@@ -71,12 +72,12 @@ export const TableTbody = styled.tbody`
       padding: 24px;
     }
 
-    ${TableTd} span {
+    ${TableTd} span:first-child {
       font-weight: 400;
     }
   }
 
-  ${TableTr}:first-child {
+  tr:first-child {
     ${TableTd} {
       position: absolute;
       top: 0;
@@ -85,7 +86,7 @@ export const TableTbody = styled.tbody`
     }
   }
 
-  ${TableTr}:not(:first-child):not(:last-child) {
+  tr:not(:first-child):not(:last-child) {
     ${TableTd}:first-child {
       border-left-width: 1px;
     }
@@ -95,7 +96,7 @@ export const TableTbody = styled.tbody`
     }
   }
 
-  ${TableTr}:nth-child(2) {
+  tr:nth-child(2) {
     ${TableTd} {
       border-top-width: 1px;
     }
@@ -122,7 +123,7 @@ export const TableTbody = styled.tbody`
     }
   }
 
-  ${TableTr}:nth-last-child(2) {
+  tr:nth-last-child(2) {
     ${TableTd} {
       border-bottom-width: 1px;
     }
@@ -136,7 +137,7 @@ export const TableTbody = styled.tbody`
     }
   }
 
-  &:not(:last-child) ${TableTr}:nth-last-child(2) {
+  &:not(:last-child) tr:nth-last-child(2) {
     ${TableTd}:first-child {
       position: relative;
 

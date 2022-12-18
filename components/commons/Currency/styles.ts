@@ -2,7 +2,7 @@ import styled, { css } from 'styled-components'
 
 import { StyledCurrencyProps } from './interface'
 
-export const Currency = styled.p<StyledCurrencyProps>`
+export const Currency = styled.span<StyledCurrencyProps>`
   font-size: 1.6rem;
   line-height: 2.4rem;
   font-weight: 900;

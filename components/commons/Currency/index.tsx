@@ -3,13 +3,26 @@ import { currencyFormatter } from '@/lib'
 import { CurrencyProps } from './interface'
 import * as Styled from './styles'
 
-const InputFilter = ({ type = 'credit', value }: CurrencyProps) => {
+const InputFilter = ({
+  type = 'credit',
+  value,
+  withStyle = false,
+}: CurrencyProps) => {
   const getCurrency = () => {
     const currency = currencyFormatter(value)
-    return type === 'debit' ? `- ${currency}` : currency
+    const prefix = {
+      credit: withStyle ? '+ ' : '',
+      debit: '- ',
+      refunded: '',
+    }
+
+    return `${prefix[type]}${currency}`
   }
 
-  return <Styled.Currency type={type}>{getCurrency()}</Styled.Currency>
+  if (withStyle)
+    return <Styled.Currency type={type}>{getCurrency()}</Styled.Currency>
+
+  return <span>{getCurrency()}</span>
 }
 
 export default InputFilter
