@@ -3,7 +3,9 @@ import styled, { css } from 'styled-components'
 import { StyledTabsButtonProps } from './interface'
 
 export const Tabs = styled.ul`
+  width: 100%;
   display: flex;
+  justify-content: center;
   list-style: none;
   font-size: 1.6rem;
   line-height: 2.4rem;

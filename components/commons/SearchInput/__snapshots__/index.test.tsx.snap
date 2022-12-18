@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Components / InputFilter should render component 1`] = `
+exports[`Components / SearchInput should render component 1`] = `
 <div>
   <fieldset
     class="sc-bcXHqe gUXnDR"

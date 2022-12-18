@@ -5,7 +5,7 @@ import items from './__mocks__/items'
 import { TabsProps } from './interface'
 
 export default {
-  title: 'Components / Tabs',
+  title: 'Commons / Tabs',
   component: Tabs,
   argTypes: {
     initialActiveItem: {

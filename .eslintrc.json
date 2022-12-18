@@ -19,6 +19,7 @@
   ],
   "rules": {
     "react/no-unescaped-entities": "off",
+    "@typescript-eslint/no-extra-semi": "off",
     "import-helpers/order-imports": [
       "warn",
       {

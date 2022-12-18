@@ -1,10 +1,10 @@
 import { StoryObj, Meta } from '@storybook/react'
 
-import InputFilter from '.'
+import SearchInput from '.'
 
 export default {
-  title: 'Components / InputFilter',
-  component: InputFilter,
+  title: 'Commons / SearchInput',
+  component: SearchInput,
 } as Meta
 
 export const Default: StoryObj = {

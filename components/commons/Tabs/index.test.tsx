@@ -1,12 +1,18 @@
+import { FiltersType } from '@/context/TransactionsProvider/interface'
 import theme from '@/styles/theme'
 import { render, screen, fireEvent } from '@/test/helpers'
 
 import Tabs from '.'
 import items from './__mocks__/items'
 
+const itemsMock = items as {
+  key: FiltersType['filter']
+  label: string
+}[]
+
 describe('Components / Tabs', () => {
   const renderComponent = (initialActiveItem?: string) =>
-    render(<Tabs items={items} initialActiveItem={initialActiveItem} />)
+    render(<Tabs items={itemsMock} initialActiveItem={initialActiveItem} />)
 
   it('should render componet', () => {
     const { container } = renderComponent()

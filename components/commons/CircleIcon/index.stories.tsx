@@ -3,7 +3,7 @@ import { StoryObj, Meta } from '@storybook/react'
 import CircleIcon from '.'
 
 export default {
-  title: 'Components / CircleIcon',
+  title: 'Commons / CircleIcon',
   component: CircleIcon,
   argTypes: {
     type: {

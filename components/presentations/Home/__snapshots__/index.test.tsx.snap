@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Presentations / Home should render component 1`] = `
+<div>
+  <div
+    class="sc-ipEyDJ"
+  >
+    <header
+      class="sc-jrcTuL AEVqD"
+    >
+      <div
+        class="sc-gswNZR iKhUPL"
+      >
+        <h1
+          class="sc-kDvujY kndZqW"
+        >
+          Extrato
+        </h1>
+      </div>
+    </header>
+    <main>
+      <div
+        class="sc-gswNZR iKhUPL"
+      >
+        <section
+          class="sc-pyfCe hBEMOj"
+        >
+          <fieldset
+            class="sc-hLBbgP buESsb"
+          >
+            <div
+              class="sc-eDvSVe HnORa"
+            >
+              <i>
+                icon-mock
+              </i>
+            </div>
+            <input
+              class="sc-jSUZER gjFiss"
+              id="search"
+              name="search"
+              placeholder="Pesquisar"
+              type="text"
+            />
+          </fieldset>
+          <ul
+            class="sc-gKPRtg jTTWzr"
+          >
+            <li
+              class="sc-iBYQkv dETHzI"
+            >
+              <button
+                class="sc-ftTHYK jllEQx"
+                type="button"
+              >
+                Tudo
+              </button>
+            </li>
+            <li
+              class="sc-iBYQkv dETHzI"
+            >
+              <button
+                class="sc-ftTHYK bVbavl"
+                type="button"
+              >
+                Entrada
+              </button>
+            </li>
+            <li
+              class="sc-iBYQkv dETHzI"
+            >
+              <button
+                class="sc-ftTHYK bVbavl"
+                type="button"
+              >
+                Saída
+              </button>
+            </li>
+            <li
+              class="sc-iBYQkv dETHzI"
+            >
+              <button
+                class="sc-ftTHYK bVbavl"
+                type="button"
+              >
+                Futuro
+              </button>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </main>
+  </div>
+</div>
+`;

@@ -1,10 +1,10 @@
 import { render, screen, fireEvent } from '@/test/helpers'
 
-import InputFilter from '.'
+import SearchInput from '.'
 
-describe('Components / InputFilter', () => {
+describe('Components / SearchInput', () => {
   const spyOnChange = jest.fn()
-  const renderComponent = () => render(<InputFilter onChange={spyOnChange} />)
+  const renderComponent = () => render(<SearchInput onChange={spyOnChange} />)
 
   it('should render component', () => {
     const { container } = renderComponent()

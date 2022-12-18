@@ -1,10 +1,10 @@
 import { StoryObj, Meta } from '@storybook/react'
 
-import Header from '.'
+import Home from '.'
 
 export default {
-  title: 'Containers / Header',
-  component: Header,
+  title: 'Presentations / Home',
+  component: Home,
 } as Meta
 
 export const Default: StoryObj = {}

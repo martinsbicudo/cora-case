@@ -1,6 +1,6 @@
 import { useState, memo } from 'react'
 
-import { TabsProps } from './interface'
+import { TabsProps, ItemType } from './interface'
 import * as Styled from './styles'
 
 const Tabs = ({
@@ -15,7 +15,7 @@ const Tabs = ({
     return setActiveItem(initialActiveItem, initialItems)
   })
 
-  const handleChange = (key: string) => () => {
+  const handleChange = (key: ItemType['key']) => () => {
     setItems((currentItems) => setActiveItem(key, currentItems))
     onChange?.(key)
   }

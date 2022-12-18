@@ -1,13 +1,13 @@
 import styled from 'styled-components'
 
-export const InputFilterWrapper = styled.fieldset`
+export const SearchInputWrapper = styled.fieldset`
   width: 100%;
   position: relative;
   z-index: 1;
   color: ${({ theme }) => theme.colors['gray-1']};
 `
 
-export const InputFilterIconBox = styled.div`
+export const SearchInputIconBox = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
@@ -18,7 +18,7 @@ export const InputFilterIconBox = styled.div`
   width: 56px;
 `
 
-export const InputFilter = styled.input`
+export const SearchInput = styled.input`
   width: 100%;
   font-size: 1.6rem;
   line-height: 2.4rem;

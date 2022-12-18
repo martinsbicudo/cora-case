@@ -3,7 +3,7 @@ import { StoryObj, Meta } from '@storybook/react'
 import Currency from '.'
 
 export default {
-  title: 'Components / Currency',
+  title: 'Commons / Currency',
   component: Currency,
   argTypes: {
     type: {

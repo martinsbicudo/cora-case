@@ -1,10 +1,14 @@
+import { FiltersType } from '@/context/TransactionsProvider/interface'
+
+export type ItemType = {
+  key: FiltersType['filter']
+  label: string
+}
+
 export interface TabsProps {
-  items: {
-    key: string
-    label: string
-  }[]
+  items: ItemsType[]
   initialActiveItem?: string
-  onChange?: (key: string) => void
+  onChange?: (key: FiltersType['filter']) => void
 }
 
 export interface StyledTabsButtonProps {

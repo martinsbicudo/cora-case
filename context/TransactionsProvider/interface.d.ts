@@ -8,7 +8,14 @@ export interface TransactionsProviderProps {
 
 export type TransactionsType = typeof transactions | []
 
+export type FiltersType = {
+  search: string
+  filter: 'all' | 'credit' | 'debit' | 'future'
+}
+
 export interface TransactionsContextType {
   transactions: TransactionsType
   setTransactions: Dispatch<SetStateAction<TransactionsType>>
+  filters: FiltersType
+  setFilters: Dispatch<SetStateAction<FiltersType>>
 }
