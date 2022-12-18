@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Components / Container should renders component 1`] = `
+exports[`Components / Container should render component 1`] = `
 <div>
   <div
     class="sc-bcXHqe eNbcpT"

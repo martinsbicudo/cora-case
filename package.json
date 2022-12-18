@@ -16,6 +16,7 @@
     "@next/font": "13.0.7",
     "@types/react-dom": "18.0.9",
     "eslint-config-next": "13.0.7",
+    "format-currency": "^1.0.0",
     "next": "13.0.7",
     "react": "18.2.0",
     "react-dom": "18.2.0",
@@ -69,6 +70,7 @@
     "stylelint-config-styled-components": "^0.1.1",
     "stylelint-processor-styled-components": "^1.10.0",
     "ts-jest": "^29.0.3",
+    "tsconfig-paths-webpack-plugin": "^4.0.0",
     "webpack": "^5.75.0"
   }
 }

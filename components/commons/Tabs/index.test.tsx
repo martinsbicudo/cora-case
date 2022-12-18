@@ -1,5 +1,5 @@
 import theme from '@/styles/theme'
-import { render, screen, fireEvent } from '@/utils/test'
+import { render, screen, fireEvent } from '@/test/helpers'
 
 import Tabs from '.'
 import items from './__mocks__/items'

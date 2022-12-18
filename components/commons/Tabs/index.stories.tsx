@@ -15,9 +15,10 @@ export default {
       options: items.map(({ key }) => key),
     },
   },
+} as Meta
+
+export const Default: StoryObj<TabsProps> = {
   args: {
     items,
   },
-} as Meta
-
-export const Default: StoryObj<TabsProps> = {}
+}

@@ -2,7 +2,15 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./*"],
+      "@Config": ["./config"],
+      "@Config/*": ["./config/*"],
+      "@Commons": ["./components/commons"],
+      "@Commons/*": ["./components/commons/*"],
+      "@Containers": ["./components/containers"],
+      "@Containers/*": ["./components/containers/*"],
+      "@Presentations": ["./components/presentations"],
+      "@Presentations/*": ["./components/presentations/*"]
     },
     "target": "es5",
     "lib": ["dom", "dom.iterable", "esnext"],

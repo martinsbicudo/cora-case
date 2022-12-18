@@ -1,4 +1,4 @@
-import { render, screen } from '@/utils/test'
+import { render, screen } from '@/test/helpers'
 
 import Container from '.'
 
@@ -11,7 +11,7 @@ describe('Components / Container', () => {
       </Container>
     )
 
-  it('should renders component', () => {
+  it('should render component', () => {
     const { container } = renderComponent()
     expect(container).toMatchSnapshot()
   })

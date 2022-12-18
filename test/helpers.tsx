@@ -2,8 +2,9 @@ import type { ReactElement, ReactNode } from 'react'
 
 import { ThemeProvider } from 'styled-components'
 
-import theme from '@/styles/theme'
 import { render, RenderOptions } from '@testing-library/react'
+
+import theme from '../styles/theme'
 
 const Providers = ({ children }: { children: ReactNode }) => {
   return <ThemeProvider theme={theme}>{children}</ThemeProvider>

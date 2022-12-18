@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components / Currency should render component 1`] = `
+<div>
+  <p
+    class="sc-bcXHqe hrDNvr"
+    type="credit"
+  >
+    R$ 80,00
+  </p>
+</div>
+`;
