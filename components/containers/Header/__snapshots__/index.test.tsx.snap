@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Containers / Header should render component 1`] = `
+<div>
+  <header
+    class="sc-pyfCe jtMRKY"
+  >
+    <div
+      class="sc-gswNZR iKhUPL"
+    >
+      <h1
+        class="sc-jrcTuL eAVTNn"
+      >
+        Extrato
+      </h1>
+    </div>
+  </header>
+</div>
+`;

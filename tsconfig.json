@@ -3,8 +3,6 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["./*"],
-      "@Config": ["./config"],
-      "@Config/*": ["./config/*"],
       "@Commons": ["./components/commons"],
       "@Commons/*": ["./components/commons/*"],
       "@Containers": ["./components/containers"],

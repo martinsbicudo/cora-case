@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components / CircleIcon should render component 1`] = `
+<div>
+  <i
+    class="sc-bcXHqe gZLDnf"
+    data-testid="credit"
+  >
+    <i>
+      icon-mock
+    </i>
+  </i>
+</div>
+`;
