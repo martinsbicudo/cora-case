@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components / Tabs should render componet 1`] = `
+<div>
+  <ul
+    class="sc-bcXHqe JMsio"
+  >
+    <li
+      class="sc-gswNZR KooEL"
+    >
+      <button
+        class="sc-dkrFOg CBtKq"
+        type="button"
+      >
+        Test 1
+      </button>
+    </li>
+    <li
+      class="sc-gswNZR KooEL"
+    >
+      <button
+        class="sc-dkrFOg RujrC"
+        type="button"
+      >
+        Test 2
+      </button>
+    </li>
+    <li
+      class="sc-gswNZR KooEL"
+    >
+      <button
+        class="sc-dkrFOg RujrC"
+        type="button"
+      >
+        Test 3
+      </button>
+    </li>
+    <li
+      class="sc-gswNZR KooEL"
+    >
+      <button
+        class="sc-dkrFOg RujrC"
+        type="button"
+      >
+        Test 4
+      </button>
+    </li>
+  </ul>
+</div>
+`;
