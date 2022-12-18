@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <>
       <Head>
-        <title>Cora Case</title>
+        <title>Extrato | Cora</title>
         <meta name="description" content="Cora Case" />
         <link rel="icon" href="favicon.png" />
       </Head>

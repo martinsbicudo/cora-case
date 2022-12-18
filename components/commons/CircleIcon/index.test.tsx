@@ -1,4 +1,3 @@
-import theme from '@/styles/theme'
 import { render, screen } from '@/test/helpers'
 
 import CircleIcon from '.'

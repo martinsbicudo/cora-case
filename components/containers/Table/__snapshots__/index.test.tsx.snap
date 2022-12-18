@@ -1,0 +1,138 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Containers / Table should render component 1`] = `
+<div>
+  <table
+    class="sc-bcXHqe hqVljI"
+  >
+    <thead>
+      <tr
+        class="sc-gswNZR"
+      >
+        <th
+          class="sc-hLBbgP iFPXzE"
+        >
+          Nome
+        </th>
+        <th
+          class="sc-hLBbgP iFPXzE"
+        >
+          Tipo de transação
+        </th>
+        <th
+          class="sc-hLBbgP iFPXzE"
+        >
+          Data
+        </th>
+        <th
+          class="sc-hLBbgP iFPXzE"
+        >
+          Valor
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      class="sc-jSUZER gaMrdr"
+    >
+      <tr
+        class="sc-gswNZR"
+      >
+        <td
+          class="sc-eDvSVe dbMYCm"
+          colspan="4"
+        >
+          23 de Agosto
+        </td>
+      </tr>
+      <tr
+        class="sc-gswNZR"
+      >
+        <td
+          class="sc-eDvSVe dbMYCm"
+        >
+          Test
+        </td>
+        <td
+          class="sc-eDvSVe dbMYCm"
+        >
+          Tansferência recebida
+        </td>
+        <td
+          class="sc-eDvSVe dbMYCm"
+        >
+          Hoje - 12 Jun 2020 - 17:35
+        </td>
+        <td
+          class="sc-eDvSVe dbMYCm"
+        >
+          + R$ 320,00
+        </td>
+      </tr>
+      <tr
+        class="sc-gswNZR"
+      >
+        <td
+          class="sc-eDvSVe dbMYCm"
+          colspan="4"
+        >
+          <span>
+            saldo
+          </span>
+           do dia R$ 3.110,08
+        </td>
+      </tr>
+    </tbody>
+    <tbody
+      class="sc-jSUZER gaMrdr"
+    >
+      <tr
+        class="sc-gswNZR"
+      >
+        <td
+          class="sc-eDvSVe dbMYCm"
+          colspan="4"
+        >
+          23 de Agosto
+        </td>
+      </tr>
+      <tr
+        class="sc-gswNZR"
+      >
+        <td
+          class="sc-eDvSVe dbMYCm"
+        >
+          Test
+        </td>
+        <td
+          class="sc-eDvSVe dbMYCm"
+        >
+          Tansferência recebida
+        </td>
+        <td
+          class="sc-eDvSVe dbMYCm"
+        >
+          Hoje - 12 Jun 2020 - 17:35
+        </td>
+        <td
+          class="sc-eDvSVe dbMYCm"
+        >
+          + R$ 320,00
+        </td>
+      </tr>
+      <tr
+        class="sc-gswNZR"
+      >
+        <td
+          class="sc-eDvSVe dbMYCm"
+          colspan="4"
+        >
+          <span>
+            saldo
+          </span>
+           do dia R$ 3.110,08
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;

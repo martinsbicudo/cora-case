@@ -1,9 +1,9 @@
 import { render } from '@/test/helpers'
 
-import Header from '.'
+import Table from '.'
 
-describe('Containers / Header', () => {
-  const renderComponent = () => render(<Header />)
+describe('Containers / Table', () => {
+  const renderComponent = () => render(<Table />)
 
   it('should render component', () => {
     const { container } = renderComponent()
