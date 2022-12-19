@@ -42,11 +42,9 @@ npm run test
 - **Style:** [styled-components](https://styled-components.com/) and [styled-breakpoints](https://www.npmjs.com/package/styled-breakpoints)
 - **Storybook:** [storybook](https://storybook.com/)
 - **Tests:** [jest](https://jestjs.io/) and [testing-library](https://testing-library.com/)
-- **Deploy:** [vercek](https://vercel.com/)
+- **Deploy:** [vercel](https://vercel.com/)
 
 
 ## License
 
 MIT © [martinsbicudo](https://github.com/martinsbicudo)
-
-
