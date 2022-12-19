@@ -1,9 +1,9 @@
 import { render } from '@/test/helpers'
 
-import Home from '.'
+import Loading from '.'
 
-describe('Presentations / Home', () => {
-  const renderComponent = () => render(<Home />)
+describe('Components / Loading', () => {
+  const renderComponent = () => render(<Loading />)
 
   it('should render component', () => {
     const { container } = renderComponent()

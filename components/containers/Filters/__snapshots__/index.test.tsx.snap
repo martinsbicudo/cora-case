@@ -3,20 +3,20 @@
 exports[`Containers / Filters should render component 1`] = `
 <div>
   <section
-    class="sc-pyfCe hBEMOj"
+    class="sc-jrcTuL dDzSDY"
   >
     <fieldset
-      class="sc-hLBbgP buESsb"
+      class="sc-eDvSVe dAMRCn"
     >
       <div
-        class="sc-eDvSVe HnORa"
+        class="sc-jSUZER Sxxek"
       >
         <i>
           icon-mock
         </i>
       </div>
       <input
-        class="sc-jSUZER gjFiss"
+        class="sc-gKPRtg ccSwvI"
         id="search"
         name="search"
         placeholder="Pesquisar"
@@ -24,43 +24,43 @@ exports[`Containers / Filters should render component 1`] = `
       />
     </fieldset>
     <ul
-      class="sc-gKPRtg jTTWzr"
+      class="sc-iBYQkv bEoIEo"
     >
       <li
-        class="sc-iBYQkv dETHzI"
+        class="sc-ftTHYK uEAGe"
       >
         <button
-          class="sc-ftTHYK jllEQx"
+          class="sc-pyfCe MYluQ"
           type="button"
         >
           Tudo
         </button>
       </li>
       <li
-        class="sc-iBYQkv dETHzI"
+        class="sc-ftTHYK uEAGe"
       >
         <button
-          class="sc-ftTHYK bVbavl"
+          class="sc-pyfCe OCrcI"
           type="button"
         >
           Entrada
         </button>
       </li>
       <li
-        class="sc-iBYQkv dETHzI"
+        class="sc-ftTHYK uEAGe"
       >
         <button
-          class="sc-ftTHYK bVbavl"
+          class="sc-pyfCe OCrcI"
           type="button"
         >
           Saída
         </button>
       </li>
       <li
-        class="sc-iBYQkv dETHzI"
+        class="sc-ftTHYK uEAGe"
       >
         <button
-          class="sc-ftTHYK bVbavl"
+          class="sc-pyfCe OCrcI"
           type="button"
         >
           Futuro

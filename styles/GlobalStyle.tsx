@@ -29,11 +29,11 @@ export const GlobalScrollBarStyle = createGlobalStyle`
   }
 
   body::-webkit-scrollbar-track {
-    background-color: ${({ theme }) => theme.colors['gray-3']};
+    background-color: ${({ theme }) => theme.colors['gray-4']};
   }
 
   body::-webkit-scrollbar-thumb {
-    background-color: ${({ theme }) => theme.colors['gray-1']};
+    background-color: ${({ theme }) => theme.colors['gray-2']};
   }
 `
 

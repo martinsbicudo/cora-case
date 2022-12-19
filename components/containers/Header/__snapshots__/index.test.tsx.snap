@@ -3,13 +3,13 @@
 exports[`Containers / Header should render component 1`] = `
 <div>
   <header
-    class="sc-pyfCe jtMRKY"
+    class="sc-jrcTuL AEVqD"
   >
     <div
       class="sc-gswNZR iKhUPL"
     >
       <h1
-        class="sc-jrcTuL eAVTNn"
+        class="sc-kDvujY kndZqW"
       >
         Extrato
       </h1>

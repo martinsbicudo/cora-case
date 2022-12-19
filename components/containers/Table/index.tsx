@@ -41,10 +41,14 @@ const Table = ({ transactions }: TableProps) => {
 
           return (
             <tr key={item.dateEvent} data-testid="table-row">
-              <Styled.TableTd>{item.actor}</Styled.TableTd>
-              <Styled.TableTd>{label}</Styled.TableTd>
-              <Styled.TableTd>{formatRowDate(item.dateEvent)}</Styled.TableTd>
-              <Styled.TableTd>
+              <Styled.TableTd data-header="Nome">{item.actor}</Styled.TableTd>
+              <Styled.TableTd data-header="Tipo de transação">
+                {label}
+              </Styled.TableTd>
+              <Styled.TableTd data-header="Data">
+                {formatRowDate(item.dateEvent)}
+              </Styled.TableTd>
+              <Styled.TableTd data-header="Valor">
                 <Currency type={type} value={item.amount} withStyle />
               </Styled.TableTd>
             </tr>
@@ -57,6 +61,13 @@ const Table = ({ transactions }: TableProps) => {
         </tr>
       </Styled.TableTbody>
     ))
+
+  if (!transactions.length)
+    return (
+      <Styled.TableEmptyState data-testid="table-empty-state">
+        Nenhuma transação encontrada :(
+      </Styled.TableEmptyState>
+    )
 
   return (
     <Styled.Table>

@@ -1,5 +1,6 @@
 export { default as CircleIcon } from './CircleIcon'
 export { default as Container } from './Container'
 export { default as Currency } from './Currency'
+export { default as Loading } from './Loading'
 export { default as SearchInput } from './SearchInput'
 export { default as Tabs } from './Tabs'
